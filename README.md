@@ -31,40 +31,20 @@ Este proyecto analiza los delitos registrados en una ciudad durante el periodo 2
 Este repositorio usa **Git LFS** para manejar archivos grandes como shapefiles (`.shp`, `.dbf`). Si vas a clonar este repositorio, asegurate de tener Git LFS instalado:  
 👉 [https://git-lfs.com](https://git-lfs.com)
 
----
-
-## 📝 Cómo reproducir el análisis
-
-1. Cloná este repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/nombre-del-repo.git
-   ```
-
-2. Abrí el proyecto en **RStudio**.
-
-3. Instalá los paquetes necesarios:
-   ```r
-   install.packages(c("tidyverse", "sf", "ggplot2", "readxl"))
-   ```
-
-4. Ejecutá los scripts de la carpeta `/scripts` en orden.
 
 ---
 
 ## 📊 Resultados esperados
 
-- Mapas de calor delictivo
+- Mapas de densidad
 - Tendencias temporales (gráficos de líneas)
-- Comparaciones por tipo de delito o zonas
-- Tablas resumen
-
-*(Podés agregar capturas de pantalla si lo deseás)*
+- Comparaciones entre barrios por delitos registrados (2019-2023)
 
 ---
 
 ## 👩‍🎓 Proyecto académico
 
-- **Universidad de Buenos Aires** – FCE  
+- **Universidad de Buenos Aires – FCE** 
 - Curso: Ciencia de Datos para Economía y Negocios
 - Año: 2025  
 - **Alumnos**:  
